@@ -14,7 +14,7 @@ const Header = ({ title, onAdd, showAdd }) => {
 }
 
 Header.defaultProps = {
-    title: 'Trade Formatter',
+    title: 'TraderBeasts Trade Formatter',
 }
 
 Header.propTyeps = {

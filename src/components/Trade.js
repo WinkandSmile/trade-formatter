@@ -1,7 +1,4 @@
 import { FaTimes } from 'react-icons/fa'
-import CopytoClipboard from './CopytoClipboard'
-
-
 
 const Trade = ({ trade, onDelete }) => {
   return (
@@ -21,7 +18,7 @@ const Trade = ({ trade, onDelete }) => {
         <p>Stop Loss: {trade.stoploss},</p>
         <p>Trade Account Risk (%): {trade.tarpercent},</p>   
         <p>Good til Close Date/Time: {trade.gtcdt},</p>  
-        <CopytoClipboard />     
+    
         </div>
    
   )
