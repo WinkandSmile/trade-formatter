@@ -34,7 +34,8 @@ const onSubmit = (e) => {
 
   return (
     <form className='add-form' onSubmit = {onSubmit}>
-      <div><p>Data stays in the web browser only.</p></div>
+      <div><p><b>Note: data stays in the web browser only.</b></p>
+      </div>
         <div className='form-control'>
         <label>What's the trade?</label>
         <input 
