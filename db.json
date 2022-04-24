@@ -10,6 +10,17 @@
       "stoploss": "50000.00",
       "tarpercent": "2",
       "gtcdt": "5 May 2022"
-    }
+    },
+    {
+      "id": "8bgRvf",
+      "instrument": "Example USDJPY",
+      "direction": "Buy",
+      "entrydt": "31 march 2022",
+      "entryprice": "122.60",
+      "takeprofit": "135.00",
+      "stoploss": "118.60",
+      "tarpercent": "1",
+      "gtcdt": "31 May 2022"
+    },
   ]
 }
