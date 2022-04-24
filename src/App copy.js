@@ -1,11 +1,10 @@
-import { useState, useEffect } from 'react'
+import {useState, useEffect } from 'react'
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Trades from './components/Trades'
 import Addtrade from './components/Addtrade'
 import About from './components/About'
-
 
 const App = () => {
   const[showAddTrade, setShowAddTrade] = useState (false)
@@ -60,32 +59,25 @@ const App = () => {
       id))
     }
 
-//export to copy
-
-
   return (
     <Router>
       <div className='container'>
         <Header
               onAdd={() => setShowAddTrade
             (!showAddTrade)} 
-            showAdd={showAddTrade}
-            
-            />
+            showAdd={showAddTrade}/>
         <Routes>
           <Route
             path='/'
             element={
               <>
-            {showAddTrade && <Addtrade onAdd={addTrade} />
-            }
+            {showAddTrade && <Addtrade onAdd={addTrade} />}
               {trades.length > 0 ? (
                 <Trades trades={trades} onDelete=
               {deleteTrade} /> 
               ): (
             'No trades to show'
             )}
-
             </>
           }
         />
