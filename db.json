@@ -1,37 +1,15 @@
 {
   "trades": [
     {
-      "id": "1",
-      "instrument": "btcusd",
-      "direction": "Buy",
-      "entrydt": "16:35, 08 04 2022",
-      "entryprice": "43500.00",
-      "takeprofit": "46000.00",
-      "stoploss": "40000.00",
+      "id": "lbg-8kL",
+      "instrument": "Example BTCUSD",
+      "direction": "Sell",
+      "entrydt": "5 April 2022",
+      "entryprice": "47000.00",
+      "takeprofit": "37000.00",
+      "stoploss": "50000.00",
       "tarpercent": "2",
-      "gtcdt": "0:00 12 04 2022"
-    },
-    {
-      "id": "3",
-      "instrument": "aapl",
-      "direction": "Buy",
-      "entrydt": "16:35, 08 04 2022",
-      "entryprice": "164.00",
-      "takeprofit": "170.00",
-      "stoploss": "160.00",
-      "tarpercent": "1",
-      "gtcdt": "0:00 12 04 2022"
-    },
-    {
-      "instrument": "sdfs",
-      "entrydt": "sdfs",
-      "direction": "sdfs",
-      "entryprice": "rsgd",
-      "takeprofit": "dfgdfg",
-      "stoploss": "dfgdf",
-      "tarpercent": "dfgdf",
-      "gtcdt": "dfgfd",
-      "id": "lbg-8kL"
+      "gtcdt": "5 May 2022"
     }
   ]
 }
