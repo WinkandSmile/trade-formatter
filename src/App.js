@@ -22,7 +22,7 @@ const App = () => {
 
   // Fetch trades ** instead of using json.server we should use whatever REST api and language and server we choose. 
   const fetchTrades = async () => {
-    const res = await fetch('http://localhost:5000/trades')
+    const res = await fetch('https://my-json-server.typicode.com/WinkandSmile/trade-formatter/trades')
     const data = await res.json()
 
     return data
@@ -30,7 +30,7 @@ const App = () => {
   // Add trades
   // Add Task
   const addTrade = async (trade) => {
-    const res = await fetch('http://localhost:5000/trades', {
+    const res = await fetch('https://my-json-server.typicode.com/WinkandSmile/trade-formatter/trades', {
       method: 'POST',
       headers: {
         'Content-type': 'application/json',
@@ -53,7 +53,7 @@ const App = () => {
     // delete Trade
 
     const deleteTrade = async (id) => {
-      await fetch(`http://localhost:5000/trades/${id}`, 
+      await fetch(`https://my-json-server.typicode.com/WinkandSmile/trade-formatter/trades/${id}`, 
       {method: 'DELETE'
     })
       setTrades(trades.filter((trade)=> trade.id !== 
