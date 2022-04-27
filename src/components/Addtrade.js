@@ -37,7 +37,7 @@ const onSubmit = (e) => {
       <div><p><b>Note: data stays in the web browser only.</b></p>
       </div>
         <div className='form-control'>
-        <label>What's the trade?</label>
+        <label>What's the trade?,</label>
         <input 
         type='text' 
         placeholder='Add Instrument' 
@@ -46,7 +46,7 @@ const onSubmit = (e) => {
         />
         </div>
         <div className='form-control'>
-        <label>Date and Time</label>
+        <label>Date and Time,</label>
         <input type='text' 
         placeholder='Date and Time' 
         value={entrydt} 
@@ -54,7 +54,7 @@ const onSubmit = (e) => {
         />
         </div>
         <div className='form-control'>
-        <label>Trade Direction</label>
+        <label>Trade Direction,</label>
         <input type='text' 
         placeholder='Buy or Sell?' 
         value={direction} 
@@ -62,7 +62,7 @@ const onSubmit = (e) => {
         />
         </div>
         <div className='form-control'>
-        <label>Entry Price</label>
+        <label>Entry Price,</label>
         <input type='text' 
         placeholder='Entry price' 
         value={entryprice} 
@@ -70,28 +70,28 @@ const onSubmit = (e) => {
         />
         </div>
         <div className='form-control'>
-        <label>Price Target</label>
+        <label>Price Target,</label>
         <input type='text' placeholder='Profit Target' 
         value={takeprofit} 
         onChange={(e) => setTakeprofit(e.target.value)}
         />        
         </div>
         <div className='form-control'>
-        <label>Stop Loss</label>
+        <label>Stop Loss,</label>
         <input type='text' placeholder='Stop Loss' 
         value={stoploss} 
         onChange={(e) => setStoploss(e.target.value)}
         />  
         </div>
         <div className='form-control'>
-        <label>Trade Account Risk % of Trade:</label>
+        <label>Trade Account Risk % of Trade,</label>
         <input type='text' placeholder='Risk percentage %' 
         value={tarpercent} 
         onChange={(e) => setTarpercent(e.target.value)}
         />  
        </div>  
         <div className='form-control'>
-        <label>Good til Close: (trade review date)</label>
+        <label>Good til Close, (trade review date),</label>
         <input type='text' placeholder='Good until Close Date and Time' 
         value={gtcdt} 
         onChange={(e) => setGtcdt(e.target.value)}
