@@ -3,7 +3,8 @@ import { FaTimes } from 'react-icons/fa'
 const Trade = ({ trade, onDelete }) => {
   return (
     <div className='trade'>
-        <h3>{trade.instrument} trade info:  <FaTimes style={ { color: 
+        <h3>{trade.instrument} trade info: <br></br>
+        Copy n paste into a new tweet and send <FaTimes style={ { color: 
           'red', cursor: 'pointer'}}
           onClick= {() => onDelete(trade.id)}  
           />
