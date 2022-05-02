@@ -34,7 +34,7 @@ const onSubmit = (e) => {
 
   return (
     <form className='add-form' onSubmit = {onSubmit}>
-      <div><p><b>Note: data stays in the web browser only.</b></p>
+      <div><p><b>Note: This app formats the trade entry data only. Nothing is captured. To publish - tweet it!</b></p>
       </div>
         <div className='form-control'>
         <label>What's the trade?</label>
