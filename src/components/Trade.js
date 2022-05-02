@@ -4,7 +4,7 @@ const Trade = ({ trade, onDelete }) => {
   return (
     <div className='trade'>
         <h3>{trade.instrument} trade info: <br></br>
-        Copy 'n paste the text below (inc @traderbeasts) into a new tweet, and send. <FaTimes style={ { color: 
+        For your added and formatted trade entry info, copy 'n paste the text output (inc @traderbeasts) into a new tweet, and send. <FaTimes style={ { color: 
           'red', cursor: 'pointer'}}
           onClick= {() => onDelete(trade.id)}  
           />
